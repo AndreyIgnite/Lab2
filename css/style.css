@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Lora-Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Lora-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oxy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Oxygen-Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Oxy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Oxygen-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0 auto;
+  color: white;
+}
+.page-header {
+  height: 500px;
+  background-image: url(../images/header_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page-header__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  margin: 0 auto;
+}
+.page-header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-header__home-button {
+  font-family: "Lora", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.page-header__navigation-bar {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 550px;
+}
+.page-header__link {
+  padding: 27px;
+  text-transform: uppercase;
+  font-family: "Oxy", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+}
+
+.page-header__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 426px;
+}
+.page-header__body-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 159px;
+}
+.page-header__slogan {
+  font-family: "Lora", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 51px;
+  margin: 0;
+}
+.page-header__text {
+  color: rgba(255, 255, 255, 0.63);
+  font-family: "Oxy", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
