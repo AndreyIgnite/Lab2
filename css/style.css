@@ -111,11 +111,86 @@ body {
   height: 44px;
   border: none;
   border-radius: 3px;
-  background-color: #DD783F;
+  background-color: #dd783f;
   color: white;
   font-family: "Oxy", sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+
+.nav {
+  width: 960px;
+}
+.page-main__nav {
+  margin: 0 auto;
+  padding: 9px 0 10px;
+  height: 65px;
+}
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav__item {
+  height: 46px;
+  width: 139px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav__link {
+  color: #768088;
+  font-family: "Lora", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.posts {
+  height: 1225px;
+  background-color: #f7f7f7;
+}
+.posts__featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 414px;
+  width: 940px;
+  margin: 0 auto;
+  padding: 60px 0 7px;
+}
+.posts__title {
+  height: 44px;
+}
+.posts__title p {
+  text-align: center;
+  margin: 0 auto;
+  color: #2e2e2e;
+  font-family: "Oxy", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 2px;
+}
+.posts__cards {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  height: 280px;
+  width: 460px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.card--the_road_ahead {
+  background-image: url(../images/card-back1.jpg);
+}
+.card--from_top_down {
+  background-image: url(../images/card-back2.jpg);
 }
