@@ -167,8 +167,11 @@ body {
   height: 44px;
 }
 .posts__title p {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
-  margin: 0 auto;
   color: #2e2e2e;
   font-family: "Oxy", sans-serif;
   font-size: 20px;
@@ -177,6 +180,17 @@ body {
   line-height: 27px;
   letter-spacing: 2px;
 }
+.posts__title p::before {
+  position: absolute;
+  bottom: -18px;
+  left: 0px;
+  right: 0px;
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #DEDEDE;
+}
+
 .posts__cards {
   gap: 20px;
   display: flex;
