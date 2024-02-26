@@ -197,6 +197,9 @@ body {
   flex-wrap: wrap;
 }
 .card {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 20px 15px;
   height: 280px;
   width: 460px;
   background-repeat: no-repeat;
@@ -207,4 +210,15 @@ body {
 }
 .card--from_top_down {
   background-image: url(../images/card-back2.jpg);
+}
+
+.card__blockquote {
+  order: -1;
+}
+
+.card__title {
+  order: 1;
+}
+.card__text {
+  order: 0;
 }
