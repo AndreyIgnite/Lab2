@@ -188,7 +188,7 @@ body {
   content: "";
   display: block;
   height: 1px;
-  background-color: #DEDEDE;
+  background-color: #dedede;
 }
 
 .posts__cards {
@@ -199,11 +199,13 @@ body {
 .card {
   display: flex;
   flex-direction: column-reverse;
-  padding: 20px 15px;
+  padding: 15px 20px;
   height: 280px;
   width: 460px;
   background-repeat: no-repeat;
   background-size: auto;
+  font-family: "Oxy", sans-serif;
+  font-weight: 400;
 }
 .card--the_road_ahead {
   background-image: url(../images/card-back1.jpg);
@@ -213,12 +215,39 @@ body {
 }
 
 .card__blockquote {
+  height: 35px;
+  display: flex;
+  align-items: center;
   order: -1;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .card__title {
   order: 1;
+  margin-bottom: 6px;
+  color: white;
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
 }
 .card__text {
   order: 0;
+  margin-bottom: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 25px;
+}
+.blockquote__avatar {
+  height: 26px;
+  width: 26px;
+  margin-right: 10px;
+  border-radius: 60px;
+  overflow: hidden;
+  /* outline: 2px solid greenyellow;
+  outline-offset: -2px; */
+}
+
+.blockquote__data {
+  margin-left: auto;
 }
