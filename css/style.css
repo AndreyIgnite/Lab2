@@ -252,6 +252,9 @@ body {
   margin-left: auto;
 }
 .posts__recent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 752px;
   width: 940px;
   margin: 0 auto;
